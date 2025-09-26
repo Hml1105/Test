@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>任务</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .outer{
+            height: 960px;
+            margin: 0 auto;
+            background-color: antiquewhite;
+        }
+        h1{
+            text-align: center;
+            word-spacing: 10px;
+            letter-spacing: 2px;
+            font: 50px "Baskerville Old Face";
+        }
+        .leftfix{
+            float: left;
+        }
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .container{
+            width: 800px;
+            margin: 90px auto;
+            box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, .3);
+            border-radius: 2%;
+        }
+        .imga{
+            width: 200px;
+        }
+        .imge{
+            width: 30px;
+        }
+        table{
+            text-align: left;
+        }
+        .right{
+            width: 500px;
+            font: 18px "楷体";
+            border-left: 1px solid black;
+        }
+        .words{
+            font-weight: bold;
+        }
+        .word{
+            font-size: 40px;
+        }
+        .about1,.about2{
+            margin: 50px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <h1>Welcome My Personal Introdution!  </h1>
+        <div class="container clearfix">
+            <div class="left leftfix">
+                <div class="face">
+                    <img src="./respec.png" alt="笑脸" class="imga">
+                </div>
+                <hr>
+                <div class="inform">
+                    <table border="0" cellspacing="10px">
+                        <tr>
+                            <th>姓名：黄梦璐</th>
+                        </tr>
+                        <tr>
+                            <th>性别：女</th>
+                        </tr>
+                        <tr>
+                            <th>生日：2004.11.05</th>
+                        </tr>
+                        <tr>
+                            <th>学号：2023413381</th>
+                        </tr>
+                        <tr>
+                            <th>班级：软件工程1班</th>
+                        </tr>
+                        <tr>
+                            <th>爱好：编程，排球</th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <img src="/QQ.png" alt="QQ" class="imge">
+                                <img src="/微信.png" alt="微信"class="imge" >
+                                <img src="/抖音.png" alt="抖音"class="imge" >
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right leftfix">
+                <div class="about1">
+                        我喜欢捕捉生活中的美丽瞬间，并通过镜头将他
+                        们永远定格下来。摄影让我能够以独特的视角观察
+                        世界，发现平凡中的不平凡，捕捉到那些细微十五细节
+                        和情感。我相信摄影不仅仅是按下快门，更是一种艺术
+                        的表达。我不断学习和探索新的摄影技术和创意构图，
+                        以提升自己的摄影技巧和艺术感。<span class="words">尝试向下滚动鼠标</span>
+                </div>
+                <div class="about2">
+                        <span class="word">作</span>为一个前端开发者，
+                        我对创造优雅。交互式和用户友好的网页和应用程序
+                        充满热情。我喜欢将设计的技术组合，通过使用HTML，css和
+                        JavaScript等前端技术，为用户提供出色的用户体验。
+                        同时也熟悉Vue，React等前端框架。开发了知新教管，
+                        外国语校园教学平台，知网云盘等项目。
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
